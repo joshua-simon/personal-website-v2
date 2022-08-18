@@ -1,0 +1,91 @@
+@import url(//db.onlinewebfonts.com/c/05428692254b58ccb090358a3dfecfff?family=Sofia+Pro);
+@font-face {font-family: "Sofia Pro"; src: url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.eot"); src: url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.woff") format("woff"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/05428692254b58ccb090358a3dfecfff.svg#Sofia Pro") format("svg"); }
+
+
+body {
+    background-color: #181818;
+    color:white;
+    font-family: 'Sofia Pro';
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    max-width: 1200px;
+}
+
+/* Header */
+
+header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.header-nav {
+    display: flex;                      
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.navlink {
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    margin: 0px 15px;
+    padding:8px;
+    text-decoration: none;
+}
+
+#navlink-home {
+    color: #E40203;
+}
+
+#navlink-about {
+    color: #FF8B00;
+}
+
+#navlink-projects {
+    color: #FEED00;
+}
+
+.header-nav a:hover {
+    text-decoration: underline overline;
+    text-decoration-thickness: 2px;
+}
+
+/* Left Side Nav */
+
+.left-sidenav {
+    grid-area: left-sidenav;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.left-sidenav .icon {
+    width:30px;
+    height:30px;
+}
+
+/* .home-main-nav {
+    display: flex;
+    flex-direction:row;
+} */
+
+.home-main {
+    grid-area: home-main;
+}
+
+.home {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px;
+    grid-template-rows: 60px 1fr 30px;
+    grid-template-areas: 
+        'header header header'
+        'left-sidenav home-main seg3a'
+        'seg1b seg2b seg3b';
+    min-height: 100vh;
+    padding: 10px; 
+}

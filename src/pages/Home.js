@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import LeftSideNav from "../components/LeftSideNav";
+import HomeMain from "../components/HomeMain";
 
 const Home = () => {
     return ( 
@@ -7,7 +8,7 @@ const Home = () => {
       <Header/>
       <LeftSideNav/>
       <div className="home-main">
-          main content
+        <HomeMain/>
       </div>
     </div> 
     );

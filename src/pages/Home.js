@@ -4,7 +4,7 @@ import HomeMain from "../components/HomeMain";
 
 const Home = () => {
     return ( 
-    <div className="home">
+    <div className="layout">
       <Header/>
       <LeftSideNav/>
       <div className="home-main">

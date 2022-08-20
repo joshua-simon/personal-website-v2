@@ -50,6 +50,7 @@ header {
     color: #FEED00;
 }
 
+
 .header-nav a:hover {
     text-decoration: underline overline;
     text-decoration-thickness: 2px;
@@ -65,9 +66,16 @@ header {
 }
 
 .left-sidenav .icon {
+    box-sizing: border-box;
     width:30px;
     height:30px;
-    padding-bottom:20px;
+    margin:10%;
+    padding:3%;
+}
+
+.left-sidenav .icon:hover {
+    border: 1px solid #2596be;
+    border-radius: 10px;
 }
 
 
@@ -79,7 +87,7 @@ header {
     
 }
 
-.home {
+.layout {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     grid-template-rows: 60px 1fr 30px;
@@ -137,6 +145,10 @@ margin:2px;
     height:100px;
 }
 
+.info-container:hover {
+    background-color:inherit;
+}
+
 .info-container h2 {
    margin:0;
    padding:0;
@@ -154,14 +166,58 @@ margin:2px;
     border-radius:10px;
 }
 
+#item-0:hover {
+    background-color: #0b3342;
+}
+
 #item-1 {
     color: #f8c40c;
     border: 2px solid #f8c40c;
     border-radius:10px;
 }
 
+#item-1:hover {
+    background-color:#443605;
+}
+
 #item-2 {
     color:#e84c3c;
     border: 2px solid #e84c3c;
     border-radius:10px;
+}
+
+#item-2:hover {
+    background-color:#4b1914;
+}
+
+/* Projects */
+
+.project-container {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color: #BBBBBB
+}
+
+
+.project h3 {
+    padding:0;
+    margin:0;
+    
+}
+
+.project h4 {
+    padding:0;
+    margin:0;
+}
+
+.project img {
+    width:150px;
+    height:100px;
+}
+
+.project-main h1 {
+    text-decoration: underline;
+    color: #2596be;
+    margin-bottom:5%;
 }

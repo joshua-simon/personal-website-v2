@@ -22,6 +22,10 @@ header {
     
 }
 
+header div {
+    transform: translateY(20%);
+}
+
 .header-nav {
     display: flex;                      
     flex-direction: row;

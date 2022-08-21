@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="layout">
         <Header/>
         <LeftSideNav/>
-        <div className="home-main"> 
+        <div className="projects-main-container"> 
             <ProjectsMain/>
         </div>
     </div> 

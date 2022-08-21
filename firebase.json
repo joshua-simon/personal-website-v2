@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "joshua-simon",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

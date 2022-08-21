@@ -9,7 +9,9 @@ const Contact = () => {
         <Header/>
         <LeftSideNav/>
         <div className="contact"> 
-            Contact
+        <h1>Contact Josh</h1>
+           <h2>joshy.d.simon@gmail.com</h2> <br></br>
+            <h2>021 181 0996</h2>
         </div>
     </div> 
     )

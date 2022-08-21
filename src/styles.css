@@ -276,3 +276,63 @@ margin:2px;
 .buttons-container a:hover {
     background-color:#444002;
 }
+
+/* About */
+
+.about {
+    margin-left: 5%;
+}
+
+.about h1 {
+    border-bottom: 2px solid #FEED00;
+}
+
+.about-blurb {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 2%;
+}
+
+.about-blurb img {
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+}
+
+.about-blurb p a {
+    text-decoration: none;
+    color:#FEED00;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.skills h3 {
+    text-align: center;
+    color: #BBBBBB;
+}
+
+.skills h4 {
+    text-align: center;
+    color: #BBBBBB;
+}
+
+/* Contact */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-left:5%;
+}
+
+.contact h1 {
+    border-bottom: 2px solid #FEED00;
+}
+
+.contact h2 {
+    text-align: center;
+    padding:0;
+    margin:0;
+}

@@ -206,6 +206,18 @@ margin:2px;
     color: #BBBBBB
 }
 
+.project {
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding:10%;
+}
+
+.project:hover {
+    border: 2px solid #f8c40c;
+    border-radius: 5%;
+    background-color: #463806 ;
+}
 
 .project h3 {
     padding:0;
@@ -219,8 +231,8 @@ margin:2px;
 }
 
 .project img {
-    width:150px;
-    height:100px;
+    width:80%;
+    height:110%;
 }
 
 .project-main h1 {

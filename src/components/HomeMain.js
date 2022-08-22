@@ -27,7 +27,7 @@ const HomeMain = () => {
             <p id = 'text'>
                 I'm a front-end developer in Wellington with a background in biochemistry and music. 
                 I bring excellent problem-solving and interpersonal skills accumulated from my experience
-                working as a scientist and tutor, with a solid grasp of front-end technologies.
+                working as a scientist and tutor.
             </p>
         </div>
         <div className="homemain-links">

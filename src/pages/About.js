@@ -15,7 +15,7 @@ const About = () => {
                     Hi there! I'm Josh. After completing a short Codecademy course on Python, I discovered a
                     love for coding and building web pages - this eventually led me to undertake a 4-month web development
                     bootcamp with Enspiral Dev Academy. It was during this time I honed in my programming skills, learning 
-                    not only the React-Redux-Express-SQLite3 stack, but invaluable human skills that I have found incredibly useful.
+                    the React-Redux-Express-SQLite3 stack and invaluable human skills.
                     <br></br>
                     When I'm not coding I'm practising saxophone, playing music and <a href = 'https://soundcloud.com/josh-simon-264281792'>composing</a>,
                     and love the outdoors and taking advantage of the amazing coffee, beer and live music Wellington has to offer.

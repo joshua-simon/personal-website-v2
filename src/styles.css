@@ -368,3 +368,19 @@ margin:2px;
         margin:5px;
     }
 }
+
+@media (max-width:576px) {
+    .project-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:576px) {
+    .about-blurb {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+

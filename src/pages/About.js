@@ -18,7 +18,7 @@ const About = () => {
                     the React-Redux-Express-SQLite3 stack and invaluable human skills.
                     <br></br>
                     When I'm not coding I'm practising saxophone, playing music and <a href = 'https://soundcloud.com/josh-simon-264281792'>composing</a>,
-                    and love the outdoors and taking advantage of the amazing coffee, beer and live music Wellington has to offer.
+                    and love the outdoors and taking advantage of the coffee, beer and live music Wellington has to offer.
                 </p>
                 <img src = {joshpic}/>
             </div>

@@ -3,11 +3,9 @@ import LeftSideNav from "../components/LeftSideNav";
 import { useParams } from 'react-router-dom';
 
 
-
 const Project = () => {
 
     let { id } = useParams();
-    console.log('user id', id)
 
     const projectInfo = [
         {

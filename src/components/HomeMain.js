@@ -26,7 +26,7 @@ const HomeMain = () => {
             <h1 id = 'text'>Joshua Simon</h1>
             <p id = 'text'>
                 I'm a front-end developer in Wellington with a background in biochemistry and music. 
-                I bring excellent problem-solving and interpersonal skills accumulated from my experience
+                I bring excellent problem solving and interpersonal skills accumulated from my experience
                 working as a scientist and tutor.
             </p>
         </div>

@@ -28,7 +28,14 @@ const Project = () => {
         tech: 'React | Tailwind CSS | Firebase',
         website: '',
         repo: 'https://github.com/joshua-simon/instagram-clone'
-        }
+        },
+        {
+        name: 'Personal Website',
+        description: "Built as an improvement on my previous website, with a focus on responsive design",
+        tech: 'React | Firebase',
+        website: 'https://joshua-simon-c2ef0.web.app/',
+        repo: 'https://github.com/joshua-simon/personal-website-v2'
+        },
     ]
 
     let project
@@ -45,6 +52,10 @@ const Project = () => {
 
         case 'instagram-ish':
         project = projectInfo[2]
+        break;
+        
+        case 'personal-website':
+        project = projectInfo[3]
         break;
 
     }

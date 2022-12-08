@@ -9,11 +9,11 @@ const Project = () => {
 
     const projectInfo = [
         {
-        name: 'Wellyadvisor',
-        description: "A review webite for Wellington's Bars and Cafes, based on Tripadvisor.", 
-        tech: 'React | Firebase',
-        website: 'https://welly-advisor.herokuapp.com/',
-        repo: 'https://github.com/joshua-simon/welly-trip-advisor'
+        name: 'WellyGuide',
+        description: "A review webite for Wellington venues, based on Tripadvisor.", 
+        tech: 'React | Redux Toolkit | Firebase',
+        website: 'https://wellyadvisor-with-redux.web.app/',
+        repo: 'https://github.com/joshua-simon/wellyadvisor-redux'
         },
         {
         name: 'Follow My Lead', 
@@ -21,13 +21,6 @@ const Project = () => {
         tech: 'React | Express | SQLite3',
         website: 'https://f-m-l.herokuapp.com/',
         repo: 'https://github.com/kahu-2020/Follow-My-Lead'
-        },
-        {
-        name: 'Instagram-ish',
-        description: "An instagram clone based from Karl Hadwen's tutorial, built to consoldate my understand of React, React context, and testing ",
-        tech: 'React | Tailwind CSS | Firebase',
-        website: '',
-        repo: 'https://github.com/joshua-simon/instagram-clone'
         },
         {
         name: 'Personal Website',
@@ -42,20 +35,16 @@ const Project = () => {
 
     switch(id) {
 
-        case 'wellyadvisor':
+        case 'wellyguide':
         project = projectInfo[0]
         break;
 
         case 'fml':
         project = projectInfo[1]
         break;
-
-        case 'instagram-ish':
-        project = projectInfo[2]
-        break;
         
         case 'personal-website':
-        project = projectInfo[3]
+        project = projectInfo[2]
         break;
 
     }

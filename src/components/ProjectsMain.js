@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import wellyadvisor from '../images/icons/welly-coffee-review.png'
+import wellyguide from '../images/icons/wellyguide.png'
 import fml from '../images/icons/fml.png'
 import instagram from '../images/icons/instagram.png'
 import bio from '../images/icons/personal-website.png'
@@ -7,9 +7,8 @@ import bio from '../images/icons/personal-website.png'
 const ProjectsMain = () => {
 
     const projects = [
-        {name: 'Wellyadvisor', tech: 'React | Firebase', image: wellyadvisor, path: 'wellyadvisor'},
+        {name: 'WellyGuide', tech: 'React | Redux Toolkit | Firebase', image: wellyguide, path: 'wellyguide'},
         {name: 'Follow My Lead', tech: 'React | Express | SQLite3', image: fml, path: 'fml'},
-        {name: 'Instagram-ish', tech: 'React | Firebase', image: instagram, path: 'instagram-ish'},
         {name: 'Personal website', tech: 'React | Firebase', image: bio, path: 'personal-website'}
     ]
 

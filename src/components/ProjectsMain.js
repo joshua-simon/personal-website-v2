@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom'
-import wellyguide from '../images/icons/wellyguide.png'
+import gigfort from '../images/icons/ios_1.png'
 import fml from '../images/icons/fml.png'
-import instagram from '../images/icons/instagram.png'
 import bio from '../images/icons/personal-website.png'
 
 const ProjectsMain = () => {
 
     const projects = [
-        {name: 'WellyGuide', tech: 'React | Redux Toolkit | Firebase', image: wellyguide, path: 'wellyguide'},
+        {name: 'Gig Fort', tech: 'React Native | Expo | Firebase', image: gigfort, path: 'gigfort'},
         {name: 'Follow My Lead', tech: 'React | Express | SQLite3', image: fml, path: 'fml'},
         {name: 'Personal website', tech: 'React | Firebase', image: bio, path: 'personal-website'}
     ]

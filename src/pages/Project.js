@@ -9,11 +9,14 @@ const Project = () => {
 
     const projectInfo = [
         {
-        name: 'WellyGuide',
-        description: "A review webite for Wellington venues, based on Tripadvisor.", 
-        tech: 'React | Redux Toolkit | Firebase',
-        website: 'https://wellyadvisor-with-redux.web.app/',
-        repo: 'https://github.com/joshua-simon/wellyadvisor-redux'
+        name: 'Gig Fort',
+        description: `A cross-platform gig guide app for Wellington. Built to provide a comprehensive, 
+        reliable gig listing with a clean, uncluttered UI. The app displays gig events both on a map and as a list,
+        and allows users to create an account where they can like, save, and set reminders for gigs.
+        `,
+        tech: 'React Native | Expo | Firebase',
+        app: 'https://play.google.com/store/apps/details?id=com.gigfort&pli=1',
+        repo: 'https://github.com/joshua-simon/gig-fort/tree/gigfort-v2'
         },
         {
         name: 'Follow My Lead', 
@@ -35,7 +38,7 @@ const Project = () => {
 
     switch(id) {
 
-        case 'wellyguide':
+        case 'gigfort':
         project = projectInfo[0]
         break;
 
@@ -61,7 +64,7 @@ const Project = () => {
            <h3 id = 'project-single-heading'>Tech Stack</h3>
            <p id =  'project-item'>{project.tech}</p>
            <div className="buttons-container" >
-                {project.website ? <a href = {project.website}>Website</a> : null}
+                {project.website ? <a href = {project.website}>Website</a> : <a href = {project.app}>App listing</a>}
                 <a href = {project.repo}>Repo</a>
            </div>
         </div>

@@ -12,10 +12,8 @@ const About = () => {
             <h1>About Josh</h1>
             <div className="about-blurb">
                 <p>
-                    Hi there! I'm Josh. After completing a Codecademy course on Python, I discovered a
-                    love for coding and building web pages - this eventually led me to undertake a 4-month web development
-                    bootcamp with Enspiral Dev Academy. During this time I learned
-                    the React-Redux-Express-SQLite3 stack and invaluable human skills.
+                    Hi there! I'm Josh. I'm a scientist, musician, and recently discovered a love for web and app development.
+                    I completed a 4-month web dev bootcamp with Dev Academy, and am currently building my own React Native application.
                     <br></br>
                     When I'm not coding I'm practising saxophone, playing music and <a href = 'https://soundcloud.com/josh-simon-264281792'>composing</a>.
                     I love the outdoors and taking advantage of the coffee, beer and live music Wellington has to offer.
